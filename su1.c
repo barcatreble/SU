@@ -126,4 +126,16 @@ int main()
     int br_plochki = (area - peika) / (WL);
     float vreme = br_plochki 0.2;
     printf("Neobhodimi plochki:%d\nVreme za postavqne na plochkite:%f", br_plochki, vreme);*/
+
+    //12
+    /*int N;
+    float M, kurs;
+    printf("Rabotni dni v meseca:");
+    scanf("%d", &N);
+    printf("Zaplata na den (v dolari): ");
+    scanf("%f", &M);
+    printf("Kurs Dolar-Lev: ");
+    scanf("%f", &kurs);
+    float year_salary = ((N * M * 14.5) * kurs * 0.75) / 365;
+    printf("Chistata sredna zaplata na Ivan na den e %.2f", year_salary);*/
 }
